@@ -9,6 +9,7 @@ author:
     affiliation: SequenceFlow
     affiliation_url: https://sequenceflow.github.io/
 date: 03-21-2021
+preview: images/logo.png
 output:
   distill::distill_article:
     self_contained: false
