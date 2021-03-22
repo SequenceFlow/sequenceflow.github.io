@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to SequenceFlow",
+    "description": "Welcome to our new blog, SequenceFlow. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Andrew Stewart",
+        "url": "https://sequenceflow.github.io/"
+      }
+    ],
+    "date": "2021-03-21",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-03-21T21:37:49-07:00",
+    "input_file": {}
+  }
+]
