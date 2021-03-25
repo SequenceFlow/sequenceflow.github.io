@@ -2078,7 +2078,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   @import url('https://fonts.googleapis.com/css2?family=Lato');
   @import url('https://fonts.googleapis.com/css2?family=Chivo');
   @import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
-
+  @import url('https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css');
 
 
   html {
@@ -2139,7 +2139,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --text-size:        15px;
     --hover-color:      #ff6700;
     --bkgd-color:       white;
-  }</style>
+  }
+
+  .posts-list .post-preview .thumbnail img { width: 50%; display: block; }</style>
   <style type="text/css">
   /* base style */
 
@@ -2321,7 +2323,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="nav-right">
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
-<a href="https://www.zotero.org/groups/2856088/sequenceflow">Zotero</a>
+<a href="https://www.zotero.org/groups/2856088/sequenceflow">
+<i class="fa fa-zotero" aria-hidden="true"></i>
+</a>
 <a href="https://github.com/SequenceFlow">
 <i class="fa fa-github" aria-hidden="true"></i>
 </a>
@@ -2479,7 +2483,7 @@ function init_posts_list() {
 </div>
 </div>
 <div class="thumbnail">
-<img/>
+<img src="posts/welcome/images/logo.png"/>
 </div>
 <div class="description">
 <h2>Welcome to SequenceFlow</h2>
@@ -2516,7 +2520,10 @@ reading what we have to say!</p>
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom"></div>
+<div class="appendix-bottom">
+<h3 id="updates-and-corrections">Corrections</h3>
+<p>If you see mistakes or want to suggest changes, please <a href="https://github.com/SequenceFlow/sequenceflow.github.io/issues/new">create an issue</a> on the source repository.</p>
+</div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->

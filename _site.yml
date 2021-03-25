@@ -3,6 +3,7 @@ title: "SequenceFlow"
 description: |
   SequenceFlow community site
 base_url: https://sequenceflow.github.io/
+repository_url: https://github.com/SequenceFlow/sequenceflow.github.io
 output_dir: "docs"
 navbar:
   logo: images/logo.png

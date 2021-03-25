@@ -11,9 +11,11 @@
     ],
     "date": "2021-03-21",
     "categories": [],
-    "contents": "\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-03-21T22:46:12-07:00",
-    "input_file": {}
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "posts/welcome/images/logo.png",
+    "last_modified": "2021-03-24T23:56:18-07:00",
+    "input_file": {},
+    "preview_width": 140,
+    "preview_height": 140
   }
 ]

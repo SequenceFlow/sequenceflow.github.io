@@ -13,7 +13,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 @import url('https://fonts.googleapis.com/css2?family=Chivo');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
-
+@import url('https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css');
 
 
 html {
@@ -75,3 +75,5 @@ d-appendix {
   --hover-color:      #ff6700;
   --bkgd-color:       white;
 }
+
+.posts-list .post-preview .thumbnail img { width: 50%; display: block; }
