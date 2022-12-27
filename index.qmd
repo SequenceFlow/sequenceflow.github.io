@@ -1,4 +1,6 @@
 ---
-title: "Listing Example"
-listing: default
+title: "SequenceFlow"
+listing:
+  contents: posts
+  type: default  
 ---
