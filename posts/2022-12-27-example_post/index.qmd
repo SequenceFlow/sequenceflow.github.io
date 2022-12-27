@@ -1,0 +1,13 @@
+---
+title: "Example Quarto post"
+date: "2022-12-27"
+categories: ["Example", "References", "Comments"]
+# image: "img/lunch-with-hadley.jpg"
+author: ["Andrew Stewart", "Nikhil Haas"]
+subtitle: "This is a quick example post in Quarto"
+draft: false
+toc: true
+bibliography: citations.bib
+nocite: |
+  @*
+---
