@@ -1,0 +1,15 @@
+---
+title: "SequenceFlow"
+about:
+  template: jolla
+  image: ./images/logo.png
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/SequnceFlow
+    - icon: github
+      text: Github
+      href: https://github.com/SequenceFlow
+---
+
+Welcome to SequenceFlow - an open-source scientific journal dedicated to applications of machine learning on biological sequence data.
