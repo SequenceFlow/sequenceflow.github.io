@@ -1,23 +1,23 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Welcome to SequenceFlow - an open-source scientific journal dedicated to applications of machine learning on biological sequence data."
+  },
+  {
     "objectID": "posts/2022-12-27-example_post/index.html",
     "href": "posts/2022-12-27-example_post/index.html",
     "title": "Example Quarto post",
     "section": "",
-    "text": "Rand, Knut, Ivar Grytten, Milena Pavlovic, Chakravarthi Kanduri, and Geir Kjetil Sandve. 2022. “BioNumPy: Fast and Easy Analysis of Biological Data with Python.” bioRxiv. https://doi.org/10.1101/2022.12.21.521373.\n\n\n“Stanford CRFM.” n.d. Accessed December 27, 2022. https://crfm.stanford.edu/2022/12/15/pubmedgpt.html."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "SequenceFlow",
-    "section": "",
-    "text": "Welcome to SequenceFlow - an open-source scientific journal dedicated to applications of machine learning on biological sequence data."
+    "text": "References\n\nRand, Knut, Ivar Grytten, Milena Pavlovic, Chakravarthi Kanduri, and Geir Kjetil Sandve. 2022. “BioNumPy: Fast and Easy Analysis of Biological Data with Python.” bioRxiv. https://doi.org/10.1101/2022.12.21.521373.\n\n\n“Stanford CRFM.” n.d. Accessed December 27, 2022. https://crfm.stanford.edu/2022/12/15/pubmedgpt.html."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "SequenceFlow",
     "section": "",
-    "text": "This is a quick example post in Quarto\n\n\n\n\n\n\n\n\n\nDec 27, 2022\n\n\nAndrew Stewart, Nikhil Haas\n\n\n\n\n\n\nNo matching items"
+    "text": "Example Quarto post\n\n\nThis is a quick example post in Quarto\n\n\n\n\n\n\n\n\n\nDec 27, 2022\n\n\nAndrew Stewart, Nikhil Haas\n\n\n\n\n\n\nNo matching items"
   }
 ]
