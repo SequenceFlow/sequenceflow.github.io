@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -127,26 +127,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Comments">Comments <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Example">Example <span class="quarto-category-count">(1)</span></div><div class="category" data-category="References">References <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">SequenceFlow</h1>
-</div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
 
 
 
@@ -154,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Example,References,Comments" data-listing-date-sort="1672099200000" data-listing-file-modified-sort="1672187111193" data-listing-reading-time-sort="0.005">
+<div class="quarto-post image-right" data-index="0" data-categories="Example,References,Comments" data-listing-date-sort="1672099200000" data-listing-file-modified-sort="1672198952147" data-listing-reading-time-sort="0.005">
 <div class="body">
 <a href="./posts/2022-12-27-example_post/index.html">
 <h3 class="no-anchor listing-title">
@@ -163,6 +148,19 @@ Example Quarto post
 <div class="listing-subtitle">
 This is a quick example post in Quarto
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Example'); return false;">
+Example
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('References'); return false;">
+References
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Comments'); return false;">
+Comments
+</div>
+</div>
+<a href="./posts/2022-12-27-example_post/index.html">
 <div class="listing-description">
 
 </div>
@@ -330,8 +328,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
 });
-</script>
-<script src="https://giscus.app/client.js" data-repo="SequenceFlow/sequenceflow.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkxMjQzMzU4NDQ=" data-category="Giscus" data-category-id="DIC_kwDOB2k25M4CTSYp" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 
