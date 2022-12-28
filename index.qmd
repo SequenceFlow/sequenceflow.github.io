@@ -1,6 +1,8 @@
 ---
-title: "SequenceFlow"
+# title: "SequenceFlow"
+comments: false
 listing:
   contents: posts
-  type: default  
+  type: default
+  categories: true  
 ---
