@@ -72,6 +72,6 @@ comments:
   giscus:
     repo: SequenceFlow/sequenceflow.github.io
     repo-id: "MDEwOlJlcG9zaXRvcnkxMjQzMzU4NDQ="
-    data-category: Giscus
-    data-category-id: "DIC_kwDOB2k25M4CTSYp"
-    # data-mapping: title
+    category: Giscus
+    category-id: "DIC_kwDOB2k25M4CTSYp"
+    # mapping: title
